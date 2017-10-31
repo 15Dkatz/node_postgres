@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "configure": "./bin/configuredb.sh"
+    "configure": "./bin/configuredb.sh",
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "keywords": [],
   "author": "",
